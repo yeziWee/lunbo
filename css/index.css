@@ -8,13 +8,13 @@ body{
 	background-color:black;
 	
 }
-#box{
+.box{
 	position:relative;
 	width: 754px;
 	height: 300px;
 	margin: 115px auto 0;
 }
-#box .slide-prev,#box .slide-next{
+.box .slide-prev,.box .slide-next{
 	position:absolute;
 	top: 50%;
 	width: 40px;
@@ -23,19 +23,19 @@ body{
 	text-align: center;
 	cursor: pointer;
 }
-#box .slide-next{
+.box .slide-next{
 	right: -110px;
 }
-#box .slide-prev{
+.box .slide-prev{
 	left: -60px;
 }
-#box ul{
+.box ul{
 	position:relative;
 	width: 754px;
 	height: 300px;
 	border: 1px solid white;
 } 
-#box li{
+.box li{
 	list-style: none;
 	position:absolute;
 	width: 0;
@@ -44,7 +44,7 @@ body{
 	left: 50%;
 	top: 50%;
 }
-#box img{
+.box img{
 	width: 100%;
 	height: 100%;
 }
