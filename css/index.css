@@ -14,7 +14,7 @@ body{
 	height: 300px;
 	margin: 115px auto 0;
 }
-#box .prev,#box .next{
+#box .slide-prev,#box .slide-next{
 	position:absolute;
 	top: 50%;
 	width: 40px;
@@ -23,10 +23,10 @@ body{
 	text-align: center;
 	cursor: pointer;
 }
-#box .next{
+#box .slide-next{
 	right: -110px;
 }
-#box .prev{
+#box .slide-prev{
 	left: -60px;
 }
 #box ul{
